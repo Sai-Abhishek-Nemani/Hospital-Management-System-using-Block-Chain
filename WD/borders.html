@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+ .dotted{
+     border-style:dotted;
+     border-width:5px; <!--can be also given in percentage-->
+     border-color:blue;
+     border-radius:3px;
+ }
+ .dashed
+ {
+     border-style:dashed;
+     border-color: blue;
+     border-width: 3%;
+ }
+ .solid{
+     border-style: solid;
+     border-color:chartreuse;
+     border-width: 3%;
+     border-radius: 4em;
+ }
+ .double{
+     border-style:double;
+     border-color:chartreuse;
+     border-width: 2em;
+     border-radius: 5em;
+ }
+ .groove{
+    border-style:groove;
+     border-color:chartreuse;
+     border-width: 2em;
+     border-radius: 5em;
+ }
+ .ridge{
+    border-style:ridge;
+     border-color:rgb(87, 101, 182);
+     border-width: 2em;
+     border-radius: 5em;
+     border-spacing: 3px;
+ }
+ .border{
+     border-top-style:dotted;
+     border-left-style:dashed;
+     border-right-style:double;
+     border-bottom-style:inset;
+     border-width:2em;
+     border-spacing: 3px;
+ }
+ .short{
+     <!--border-style:top right bottom left ;-->
+ }
+</style>
+</head>
+<body>
+    <h1 class="dotted">This is a dotted border</h1>
+    <br>
+    <br>
+    
+    <h1 class="dashed">this is a dashed border</h1>
+    <h1 class="solid">this is a solid border</h1>
+    <h1 class="double">this is a double border</h1>
+    <h1 class="groove">this is a double border</h1>
+    <h1 class="ridge">this is a double border</h1>
+    <h1 class="border">this is a double border</h1>
+    <h1 class="short">this is a double border</h1>
+</body>
+</html>
+<!--border-style:dotted
+dashed
+solid
+double
+groove
+ridge
+inset
+outset
+none-->

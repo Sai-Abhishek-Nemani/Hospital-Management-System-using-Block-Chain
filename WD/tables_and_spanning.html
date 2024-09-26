@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tables and spanning</title>
+</head>
+<body>
+    <table border="2" >
+        <caption>tables</caption>
+       <tr>
+           <td>1</td>
+           <td >2</td>
+           <td>3</td>
+       </tr>
+       <tr>
+           <td>4</td>
+           <td>5</td>
+           <td>6</td>
+       </tr>
+    </table>
+    <br>
+    <br>                             
+    <table border="7">
+        <caption>spanning</caption>
+        <tr>
+            <td rowspan="3">1</td>
+           <td>2</td>
+           <td>3</td>
+        </tr>
+        <tr>
+            <!--<td>4<?td>-->
+           <td colspan="2">5</td>  <!--here all the commented rows and cols are spanned-->
+          <!--<td>6</td>-->
+        </tr>
+        <tr>
+            <!--<td>7</td>-->
+            <td>8</td>
+            <td>9</td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <br>
+    <table border="2" >
+        <caption>tables</caption>
+       <tr>
+           <td colspan="2">1</td>
+           <!--<td >2</td>-->
+           <td rowspan="2">3</td>
+       </tr>
+       <tr>
+           <td>4</td>
+           <td rowspan="2">5</td>
+          <!-- <td>6</td>-->
+       </tr>
+       <tr>
+           <td>8</td>
+          <!--<td>9</td>-->
+           <td>10</td>
+       </tr>
+    </table>
+    <table border="4">
+        <caption>cap</caption>
+        <tr>
+            <td rowspan="2">1</td>
+            <td colspan="3">2</td>
+           <!-- <td>3</td>
+            <td>4</td>-->
+        </tr>
+        <tr>
+            <!--<td>5</td>-->
+            <th>6</th>
+            <th>7</th>       <!--th is to make bold-->
+            <td>8</td>
+        </tr>
+    </table>
+    <table border="5" bgcolor="pink">
+        <caption>THIS is newly vreated table</caption>
+       <tr>
+           <td rowspan="2">1</td>
+           <td colspan="2">2</td>
+          <!-- <td>3</td>-->
+           <td>4</td>
+       </tr>
+       <tr>
+        <!--<td>1</td>-->
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+       </tr>
+
+    </table>
+</body>
+</html>

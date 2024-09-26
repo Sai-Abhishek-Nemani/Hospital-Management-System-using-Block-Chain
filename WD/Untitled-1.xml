@@ -1,0 +1,3 @@
+<?xml version='1.0' ?>
+<!ELEMENT users (user*)>
+<!ELEMENT user (uid,pwd)
